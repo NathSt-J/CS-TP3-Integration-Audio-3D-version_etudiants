@@ -147,7 +147,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 8bdbe44904eba59498652b37dbf7f1e5, type: 3}
+    - {fileID: 8300000, guid: a520e5b7d77a180499c9b36a391f1afc, type: 3}
+    - {fileID: 8300000, guid: ae227764fc7d3cd498e67368e4bdc334, type: 3}
+    - {fileID: 8300000, guid: be3dd1f76f3650e42a459df354b0d1db, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -807,7 +811,11 @@ MonoBehaviour:
   playDelay: 0.5
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 5bdc8f4f2e71c7647a6d2703af07519e, type: 3}
+    - {fileID: 8300000, guid: 08459246dd86d044bbd16ddb7d908c4a, type: 3}
+    - {fileID: 8300000, guid: 88a81c207f6dad9429434f4f5534ec4c, type: 3}
+    - {fileID: 8300000, guid: 51b28eceefd1f3d44ac76584e25c2036, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -2159,9 +2167,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442251620448134}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.67719364, y: 0.7197622, z: 0.66300535}
   m_Center: {x: -0.0053212643, y: 0.41326183, z: 0.07626712}
 --- !u!1 &1475807314643632
@@ -3328,11 +3344,11 @@ Transform:
   - {fileID: 4558756240328940}
   - {fileID: 4998087950247418}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -148.75801, z: 0}
 --- !u!95 &95449222272042074
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3349,7 +3365,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &114290622220327500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3434,9 +3451,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722084123150156}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.63598824, y: 1.1292851, z: 0.84204507}
   m_Center: {x: 0.010750532, y: 0.60911524, z: 0.018225312}
 --- !u!114 &114643127116660914
