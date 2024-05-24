@@ -1617,7 +1617,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 3e5bb43bb34008045bb69cbfd63adc5b, type: 3}
+    - {fileID: 8300000, guid: 91b5c3f7d6446154ea6e55a2ea20c982, type: 3}
+    - {fileID: 8300000, guid: 371829f7393694747812980073c361a6, type: 3}
+    - {fileID: 8300000, guid: bcce922ff17ea6b428e03ef0a74d11ab, type: 3}
   overrides: []
   playing: 0
   canPlay: 0

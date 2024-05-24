@@ -385,7 +385,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: 09d7be1d6077a0443a3122678f781c3f, type: 3}
+    - {fileID: 8300000, guid: c1b0267c4d41d8f4089ccde6a114a40e, type: 3}
+    - {fileID: 8300000, guid: 88d2bb757293ac84184cb14f58e37f93, type: 3}
+    - {fileID: 8300000, guid: d0c39b3cc55c7264fb9dc9598eb14bca, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -958,7 +962,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   overrides: []
   playing: 0
   canPlay: 0
