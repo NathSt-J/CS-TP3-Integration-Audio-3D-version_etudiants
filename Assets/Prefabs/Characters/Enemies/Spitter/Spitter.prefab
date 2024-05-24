@@ -963,10 +963,10 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: a6cde9aaba1796c4db19c0cb3c39caf9, type: 3}
+    - {fileID: 8300000, guid: 19057bf47fcbc6e4e814272c6c732f6f, type: 3}
+    - {fileID: 8300000, guid: 469d98ffb0a08e34cbfb87a4a88255f3, type: 3}
+    - {fileID: 8300000, guid: 738a57ff96ac28842a1693e71b4d4ff1, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
