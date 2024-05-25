@@ -29661,6 +29661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4680817934883634}
   - component: {fileID: 82198651634885954}
+  - component: {fileID: 4661479228739005164}
   m_Layer: 23
   m_Name: DestroyPlayer
   m_TagString: Untagged
@@ -29815,6 +29816,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4661479228739005164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225888305799210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051b4df1f81e5e94c8099b57fe38cc9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomizePitch: 0
+  pitchRandomRange: 0.2
+  playDelay: 0
+  defaultBank:
+    name: 
+    clips:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  overrides: []
+  playing: 0
+  canPlay: 0
 --- !u!1 &1228001730070652
 GameObject:
   m_ObjectHideFlags: 0
@@ -45059,7 +45085,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: b44803aa435c1eb44a4c7ce15b6564f4, type: 3}
+    - {fileID: 8300000, guid: 4bfa7a87b74eaa9409c69c3e90a841ed, type: 3}
+    - {fileID: 8300000, guid: 8e930de83c866824aaf7fd734b99e109, type: 3}
+    - {fileID: 8300000, guid: 4ff9c5ef0ae3a1446b05cfa4f08a934b, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -45521,7 +45551,11 @@ MonoBehaviour:
   playDelay: 0
   defaultBank:
     name: 
-    clips: []
+    clips:
+    - {fileID: 8300000, guid: ff2c3fd43057e5b489d3a06c2c6f042b, type: 3}
+    - {fileID: 8300000, guid: 6da1605d03ed4914b81b5356d57bf8cd, type: 3}
+    - {fileID: 8300000, guid: 82f1767e2665bec44acf38896d022939, type: 3}
+    - {fileID: 8300000, guid: 3050a9b0d39cab74bb0b8f50d35bc828, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
